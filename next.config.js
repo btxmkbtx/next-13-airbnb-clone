@@ -4,6 +4,7 @@ const nextConfig = {
     appDir: true,
   },
   images: {
+    //跨域的图像url必须要在这里配置域名
     domains: [
       "avatars.githubusercontent.com",
       "lh3.googleusercontent.com",
